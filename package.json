@@ -1,0 +1,40 @@
+{
+  "name": "jsonschema2html-handlebars-pack",
+  "preferGlobal": false,
+  "version": "0.1.3",
+  "author": "Shawn Hilgart <shawn@wcst.com>",
+  "description": "A Pack for jsonschema2html that outputs a handlebars template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawnhilgart/jsonschema2html-handlebars-pack"
+  },
+  "private": false,
+  "test": "make test",
+  "contributors": [
+    "Shawn Hilgart <shawn.hilgart@gmail.com>"
+  ],
+  "main": "./lib/handlebars.pack",
+  "keywords": [],
+  "dependencies": {
+    "handlebars": "~2.0.0"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/shawnhilgart/jsonschema2html-handlebars-pack/issues"
+  },
+  "homepage": "https://github.com/shawnhilgart/jsonschema2html-handlebars-pack",
+  "bundleDependencies": [],
+  "directories": {
+    "test": "test"
+  }
+}
